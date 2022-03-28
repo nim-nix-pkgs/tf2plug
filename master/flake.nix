@@ -11,7 +11,6 @@
   inputs.src-tf2plug-master.ref   = "refs/heads/master";
   inputs.src-tf2plug-master.owner = "waylon531";
   inputs.src-tf2plug-master.repo  = "tf2plug";
-  inputs.src-tf2plug-master.dir   = "";
   inputs.src-tf2plug-master.type  = "gitlab";
   
   inputs."docopt".owner = "nim-nix-pkgs";
