@@ -3,9 +3,11 @@
     "docopt": {
       "inputs": {
         "flakeNimbleLib": [
+          "tf2plug-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "tf2plug-master",
           "nixpkgs"
         ],
         "regex": "regex",
@@ -13,11 +15,11 @@
       },
       "locked": {
         "dir": "v0_6_8",
-        "lastModified": 1652366445,
+        "lastModified": 1648428548,
         "narHash": "sha256-MYw3J6Hg3j9ntP3qkVAu/vYRgzCBgKL62D2dRL75Ot4=",
         "owner": "nim-nix-pkgs",
         "repo": "docopt",
-        "rev": "1cf26676df8ca638e636387a76622d64dcca19c7",
+        "rev": "b3b8b4a5c53c5bed4a848e6b3ebaa0b2ab9070f3",
         "type": "github"
       },
       "original": {
@@ -64,10 +66,12 @@
     "regex": {
       "inputs": {
         "flakeNimbleLib": [
+          "tf2plug-master",
           "docopt",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "tf2plug-master",
           "docopt",
           "nixpkgs"
         ],
@@ -93,10 +97,9 @@
     },
     "root": {
       "inputs": {
-        "docopt": "docopt",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-tf2plug-master": "src-tf2plug-master"
+        "tf2plug-master": "tf2plug-master"
       }
     },
     "src-docopt-v0_6_8": {
@@ -167,14 +170,44 @@
         "type": "github"
       }
     },
+    "tf2plug-master": {
+      "inputs": {
+        "docopt": "docopt",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-tf2plug-master": "src-tf2plug-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1650757818,
+        "narHash": "sha256-0UncJf7qyN0V5PvOOZX0JR61HgmKjVv7ufaUL6VAARE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "tf2plug",
+        "rev": "e669588ef87e09775e12846af3f68245e0a29a8b",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "tf2plug",
+        "type": "github"
+      }
+    },
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "tf2plug-master",
           "docopt",
           "regex",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "tf2plug-master",
           "docopt",
           "regex",
           "nixpkgs"
