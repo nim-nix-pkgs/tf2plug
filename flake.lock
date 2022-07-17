@@ -183,11 +183,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657154447,
-        "narHash": "sha256-lhebYzwTP49mXo8JEsyP0YYaLkLuLIV1Xdr5aVAgr5Q=",
+        "lastModified": 1658019558,
+        "narHash": "sha256-NwSgjphHmY0A5A2jHUK0XOsdx1OBuYNEkKY1x0ilg1Y=",
         "owner": "nim-nix-pkgs",
         "repo": "tf2plug",
-        "rev": "4a9647102adea2d69ddd95a9df51b93cd5bbf00f",
+        "rev": "006e049a8161760d608e7e9ac22d8891b1da2ebe",
         "type": "github"
       },
       "original": {
